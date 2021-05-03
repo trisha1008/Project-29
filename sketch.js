@@ -26,12 +26,18 @@ function setup(){
     box7 = new Box(610,380,40,40); 
     box8 = new Box(650,380,40,40);
     box9 = new Box(410,340,40,40);
-    box10 = new Box(450,260,40,40);
-    box11 = new Box(490,220,40,40);
-    box12 = new Box(530,180,40,40);
-    box13 = new Box(570,140,40,40);
-    box14 = new Box(610,100,40,40);
-    box15 = 
+    box10 = new Box(450,340,40,40);
+    box11 = new Box(490,340,40,40);
+    box12 = new Box(530,340,40,40);
+    box13 = new Box(570,340,40,40);
+    box14 = new Box(610,340,40,40);
+    box15 = new Box(450,300,40,40);
+    box16 = new Box(490,300,40,40);
+    box17 = new Box(530,300,40,40);
+    box18 = new Box(570,300,40,40);
+    box19 = new Box(490,260,40,40);
+    box20 = new Box(530,260,40,40);
+    
     
 
     ground=new Ground(500,400,400,20)
@@ -61,6 +67,14 @@ function draw(){
     box12.display();
     box13.display();
     box14.display();
+    fill("purple")
+    box15.display();
+    box16.display();
+    box17.display();
+    box18.display();
+    fill("orange")
+    box19.display();
+    box20.display();
 
     slingshot.display();
 
